@@ -1,56 +1,66 @@
 # **Android Engineering Handbook**
 
-> Consistency over novelty. Simplicity over complexity. Reuse over duplication.
+> Build once. Understand forever.
 
-A curated engineering handbook covering architecture, Jetpack Compose, MVI, Design Systems, testing, quality, and modern Android development practices.
+**Engineering standards for modern Android development.**
+
+A curated engineering handbook for building modern Android applications with Kotlin, Jetpack Compose, Modular Architecture, MVI, and Clean Architecture.
+
+Instead of being another template or boilerplate, this project documents the architectural decisions, implementation patterns, reusable templates, and engineering practices that help teams build Android applications that remain maintainable as they grow.
+
 Designed for both Android engineers and AI coding assistants.
 
 ---
 
-## **Created by**
-**Norman Sánchez**
+## **Features**
 
-Senior Android Engineer
-🌐 Website: **https://normansanchez.dev**
-🐙 GitHub: **https://github.com/normansanchezn**
-💼 LinkedIn: **https://www.linkedin.com/in/norman-sanchez-nolasco**
-
----
-
-## **Why this project exists**
-
-Every Android project eventually faces the same architectural decisions.
-
-This handbook captures engineering practices that have proven effective across real-world projects, helping teams build Android applications that are:
-
-- Modular
-- Maintainable
-- Testable
-- Consistent
-- Scalable
-
-Instead of reinventing architecture for every project, this handbook provides a practical reference that grows over time.
+- 🏛 Modular Android Architecture
+- 🧩 Clean Architecture
+- 🎨 Design System Guidelines
+- 📱 Jetpack Compose Best Practices
+- 🔄 MVI + Contract Pattern
+- 📦 Offline-first Data Layer
+- 🧪 Testing Guidelines
+- 📖 KDoc Standards
+- 🧱 Reusable Templates
+- 🤖 AI Assistant Ready
 
 ---
 
-## **What’s Included**
+## **Compatibility**
 
-- Engineering Philosophy
-- Modular Architecture
-- Design System
-- Jetpack Compose
-- MVI
-- Data Layer
-- Domain Layer
-- Core Utilities
-- Testing
-- Code Quality
-- Reusable Templates
-- Complete Examples
+|**Assistant**|**Supported**|
+|---|---|
+|Claude Code|✅|
+|Codex CLI|✅|
+|OpenClaw|✅|
+|ChatGPT Projects|✅|
+|Cursor|✅|
+|Windsurf|✅|
+|Gemini CLI|🚧|
 
 ---
 
-## **Documentation**
+## **Why?**
+
+Most Android teams eventually solve the same problems:
+
+- Where should this code live?
+- How should modules depend on each other?
+- Should this be a UseCase or a Repository?
+- How should UI state be modeled?
+- Where do reusable Compose components belong?
+- How should failures be represented?
+
+This handbook captures practical engineering decisions gathered from real-world Android projects, providing a consistent approach that can be applied across different applications and teams.
+
+The goal is not to dictate architecture.
+
+The goal is to reduce unnecessary decisions.
+
+---
+
+## **What’s Inside?**
 
 ```text
 00-philosophy/
@@ -67,22 +77,81 @@ Instead of reinventing architecture for every project, this handbook provides a 
 examples/
 ```
 
+Every directory focuses on a single engineering concern, making the documentation easy to navigate and maintain.
+
 ---
 
-## **Principles**
+## **Installation**
 
-Consistency over novelty.
+Clone the repository.
 
-Simplicity over complexity.
+```bash
+git clone https://github.com/normansanchezn/android-engineering-handbook.git
+```
 
-Reuse over duplication.
+Then configure your preferred AI assistant.
+
+|**Assistant**|**Guide**|
+|---|---|
+|Claude Code|`docs/install/claude.md`|
+|Codex CLI|`docs/install/codex.md`|
+|OpenClaw|`docs/install/openclaw.md`|
+|ChatGPT Projects|`docs/install/chatgpt.md`|
+
+---
+
+## **Philosophy**
+
+The handbook is built around a few simple principles.
+
+- Consistency over novelty.
+- Simplicity over complexity.
+- Reuse over duplication.
+- Composition over inheritance.
+- Small, focused components.
+- Clear architectural boundaries.
+- Keep it simple, but significant.
 
 ---
 
 ## **Contributing**
 
-Contributions, discussions, and suggestions are welcome.
-If you find something that can improve the handbook, feel free to open an issue or submit a pull request.
+Contributions, ideas, discussions, and improvements are always welcome.
+
+If you believe something can be improved, feel free to open an Issue or submit a Pull Request.
+
+---
+
+## **Roadmap**
+
+Future improvements include:
+
+- Kotlin Multiplatform support
+- Compose Multiplatform guidelines
+- Architecture Decision Records (ADR)
+- Sample applications
+- CI/CD reference implementations
+- Performance and Baseline Profiles
+- Security recommendations
+- Accessibility guidelines
+- Feature modules reference architecture
+
+---
+
+## **Author**
+
+**Norman Sánchez**
+
+Senior Android Engineer
+
+🌐 Website  
+https://normansanchez.dev
+
+🐙 GitHub  
+https://github.com/normansanchezn
+
+💼 LinkedIn  
+https://www.linkedin.com/in/norman-sanchez-nolasco
 
 ---
 
