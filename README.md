@@ -1,4 +1,9 @@
 # **Android Engineering Handbook**
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Android](https://img.shields.io/badge/Android-Kotlin-3DDC84)
+![Compose](https://img.shields.io/badge/Jetpack-Compose-4285F4)
+![Architecture-MVI](https://img.shields.io/badge/Architecture-MVI-orange)
+![AI Ready](https://img.shields.io/badge/AI-Claude%20%7C%20Codex%20%7C%20OpenClaw-success)
 
 > Build once. Understand forever.
 
