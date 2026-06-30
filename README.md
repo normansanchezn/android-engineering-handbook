@@ -1,9 +1,13 @@
 # **Android Engineering Handbook**
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Android](https://img.shields.io/badge/Android-Kotlin-3DDC84)
-![Compose](https://img.shields.io/badge/Jetpack-Compose-4285F4)
-![Architecture-MVI](https://img.shields.io/badge/Architecture-MVI-orange)
-![AI Ready](https://img.shields.io/badge/AI-Claude%20%7C%20Codex%20%7C%20OpenClaw-success)
+
+<img width="1983" height="793" alt="b380c6e5c1fd328e7d0ce6b1ad14d832f6d411810312f7af2b563ccfd596e24c" src="https://github.com/user-attachments/assets/7df70de8-b7b4-4642-b6e7-fe46e7cef592" />
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
+  <img src="https://img.shields.io/badge/Android-Kotlin-3DDC84" alt="Android Kotlin" />
+  <img src="https://img.shields.io/badge/Jetpack-Compose-4285F4" alt="Jetpack Compose" />
+  <img src="https://img.shields.io/badge/Architecture-MVI-orange" alt="Architecture MVI" />
+  <img src="https://img.shields.io/badge/AI-Claude%20%7C%20Codex%20%7C%20OpenClaw-success" alt="AI Ready" />
+</p>
 
 > Build once. Understand forever.
 
