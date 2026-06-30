@@ -23,16 +23,21 @@ Designed for both Android engineers and AI coding assistants.
 
 ## **Features**
 
-- 🏛 Modular Android Architecture
-- 🧩 Clean Architecture
-- 🎨 Design System Guidelines
-- 📱 Jetpack Compose Best Practices
-- 🔄 MVI + Contract Pattern
-- 📦 Offline-first Data Layer
-- 🧪 Testing Guidelines
-- 📖 KDoc Standards
-- 🧱 Reusable Templates
-- 🤖 AI Assistant Ready
+* 🏛 Modular Android Architecture
+* 🧩 Clean Architecture
+* 📱 Jetpack Compose
+* 🎨 Design System & Atomic Design
+* 🔄 MVI + Contract Pattern
+* 🧠 Kotlin Best Practices
+* 💉 Dependency Injection
+* 💾 Offline-first Data Layer
+* ⚙️ Core Engineering Utilities
+* 🧪 Testing Strategy
+* 📖 KDoc Standards
+* ✅ Code Quality Guidelines
+* 📦 Reusable Templates
+* 🚀 Production-oriented Examples
+* 🤖 AI Assistant Ready
 
 ---
 
@@ -52,20 +57,35 @@ Designed for both Android engineers and AI coding assistants.
 
 ## **Why?**
 
-Most Android teams eventually solve the same problems:
+Every Android team eventually faces the same questions.
 
-- Where should this code live?
-- How should modules depend on each other?
-- Should this be a UseCase or a Repository?
-- How should UI state be modeled?
-- Where do reusable Compose components belong?
-- How should failures be represented?
+* Where should this code live?
+* Should this be a UseCase or a Repository?
+* How should modules depend on each other?
+* How should UI state be modeled?
+* Where do reusable Compose components belong?
+* How should failures be represented?
+* How should AI understand the project’s architecture?
 
-This handbook captures practical engineering decisions gathered from real-world Android projects, providing a consistent approach that can be applied across different applications and teams.
+Instead of answering these questions differently in every project, this handbook provides a practical engineering reference that evolves over time.
 
-The goal is not to dictate architecture.
+The objective is simple:
+> Reduce unnecessary engineering decisions while keeping projects maintainable, scalable, and consistent.
+---
 
-The goal is to reduce unnecessary decisions.
+## Quick Start
+
+Clone the repository.
+```bash
+git clone https://github.com/normansanchezn/android-engineering-handbook.git
+```
+
+If you are working with `claude` then you need to create:
+
+```bash
+mkdir .claude/skills
+```
+
 
 ---
 
@@ -83,51 +103,30 @@ The goal is to reduce unnecessary decisions.
 08-testing/
 09-quality/
 10-templates/
+11-ai/
 examples/
 ```
 
-Every directory focuses on a single engineering concern, making the documentation easy to navigate and maintain.
+Each directory focuses on a single engineering concern and can be read independently.
+---
+
+## Guiding Principles
+
+* Consistency over novelty.
+* Simplicity over complexity.
+* Reuse over duplication.
+* Keep it simple, but significant.
+* Composition over inheritance.
+* Small components with clear responsibilities.
+* Documentation is part of the product.
+* Build software your future self will enjoy maintaining.
 
 ---
 
-## **Installation**
+## Contributing
 
-Clone the repository.
-
-```bash
-git clone https://github.com/normansanchezn/android-engineering-handbook.git
-```
-
-Then configure your preferred AI assistant.
-
-|**Assistant**|**Guide**|
-|---|---|
-|Claude Code|`docs/install/claude.md`|
-|Codex CLI|`docs/install/codex.md`|
-|OpenClaw|`docs/install/openclaw.md`|
-|ChatGPT Projects|`docs/install/chatgpt.md`|
-
----
-
-## **Philosophy**
-
-The handbook is built around a few simple principles.
-
-- Consistency over novelty.
-- Simplicity over complexity.
-- Reuse over duplication.
-- Composition over inheritance.
-- Small, focused components.
-- Clear architectural boundaries.
-- Keep it simple, but significant.
-
----
-
-## **Contributing**
-
-Contributions, ideas, discussions, and improvements are always welcome.
-
-If you believe something can be improved, feel free to open an Issue or submit a Pull Request.
+Contributions, discussions, ideas, and improvements are always welcome.
+If you find something that can be improved, feel free to open an Issue or submit a Pull Request.
 
 ---
 
@@ -142,8 +141,6 @@ Future improvements include:
 - CI/CD reference implementations
 - Performance and Baseline Profiles
 - Security recommendations
-- Accessibility guidelines
-- Feature modules reference architecture
 
 ---
 

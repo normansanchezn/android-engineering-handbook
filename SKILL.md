@@ -147,6 +147,12 @@ Reuse before creating.
 | Implement business rules | `06-domain/` |
 | Write tests | `08-testing/` |
 | Review quality | `09-quality/` |
+| Add a Room DAO | `10-templates/dao.md` |
+| Add a DTO | `10-templates/dto.md` |
+| Add a Room Entity | `10-templates/entity.md` |
+| Add a Retrofit service | `10-templates/retrofit-service.md` |
+| Add a bottom sheet | `10-templates/bottom-sheet.md` |
+| Load context efficiently | `11-ai/context-loading.md` |
 | Browse examples | `examples/` |
 
 ---
@@ -166,6 +172,7 @@ Reuse before creating.
 | Testing | `08-testing/` |
 | Quality | `09-quality/` |
 | Templates | `10-templates/` |
+| AI Engineering | `11-ai/` |
 | Examples | `examples/` |
 
 ---
